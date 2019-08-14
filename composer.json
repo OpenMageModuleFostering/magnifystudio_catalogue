@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/MagnifyStudio_Catalogue",
+    "type": "magento-module",
+    "license": "MIT",
+    "homepage": "",
+    "description": "Browse all products with layered navigation. Page listing all manufacturers and linking to their corresponding products.",
+    "authors": [
+    {
+        "name": "MagnifyStudio",
+        "email": "micheal.morgan@magnifystudio.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

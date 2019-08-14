@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package>
+    <name>MagnifyStudio_Catalogue</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license>MIT</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Browse all products with layered navigation. Page listing all manufacturers and linking to their corresponding products.</summary>
+    <description>Ability for user to browse all products on the front-end with layered navigation. Manufacturers page that lists and links to their corresponding products.</description>
+    <notes># 0.1.0 - 02/09/2014&#xD;
+&#xD;
+- Initial release of Magento Catalogue&#xD;
+- Ability to browse a root category (anchored) using layered navigation&#xD;
+- Manufacturer page listing all manufacturers and linking to corresponding products&#xD;
+- Block helper for implementing manufacturer drop-down in header</notes>
+    <authors><author><name>MagnifyStudio</name><user>magnifystudio</user><email>micheal.morgan@magnifystudio.com</email></author></authors>
+    <date>2014-02-18</date>
+    <time>07:14:49</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="MagnifyStudio_Catalogue.xml" hash="51256b5f332520ddd32a45d42b4e0128"/></dir></target><target name="magecommunity"><dir name="MagnifyStudio"><dir name="Catalogue"><dir><dir name="controllers"><file name="IndexController.php" hash="f17dc2583e7f67f0d39bceff824627e7"/><file name="ManufacturersController.php" hash="3f09812ec508ab49685504a2b00fc468"/><file name=".DS_Store" hash="0acc0acb491de9ce9abb599ba59f83e5"/></dir><dir name="etc"><file name="config.xml" hash="9ffcbf631ee92bebfc65e41addd4a8a6"/><file name=".DS_Store" hash="5c1d51d504074ee8fa5010ff7b26ca40"/></dir></dir><file name=".DS_Store" hash="9ca904f12a1592635fee7229b28c0676"/></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><file name="magnifystudio-catalogue.xml" hash="85f325bbfdd7803ab19bcbca5c8dda3e"/></dir><dir name="template"><dir name="magnifystudio-catalogue"><file name="manufacturers.phtml" hash="24b68f9cff4d517ec17875632530a1a6"/><dir><dir name="navigation"><file name="manufacturers.phtml" hash="cdc71e7c5d37d5ec3b89e97e1f334c51"/><file name=".DS_Store" hash="f645a00e439558af6677095428a9ae52"/></dir></dir><file name=".DS_Store" hash="9478f697940077208e3728f6071a5fc6"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
